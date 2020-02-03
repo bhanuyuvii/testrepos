@@ -1,0 +1,43 @@
+.card
+{
+    transition: all 0s linear !important;
+    border: none !important;
+}
+
+
+.img-container
+{
+    position: relative !important;overflow: hidden;
+size: 10 10 10 10;
+
+
+}
+
+.img
+{
+    position: absolute !important;
+    top:20% !important;
+    left:40% !important;
+    bottom:60% !important;
+    right:100% !important;
+
+}
+.card-img-top:hover{
+    transform:scale(1.25) !important;
+}
+.cart-btn
+{
+    position:absolute;
+    right:0;
+    bottom: 0;
+    background:lightblue;
+    border-radius: 0.4rem 0 0 0 ;
+    transition: all 1s linear;
+
+   
+    
+}
+.cart-btn:hover{
+    background: var(--LightBlue);
+
+}
